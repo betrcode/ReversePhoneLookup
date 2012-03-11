@@ -19,11 +19,10 @@ public class ReversePhoneLookupServlet extends HttpServlet {
         String countryid = req.getParameter("countryid");
         String phonenumber = req.getParameter("phonenumber");
         
-        log.info("CountryId: " + countryid + "Search: " + phonenumber);
+        log.info("CountryId: " + countryid + " Search: " + phonenumber);
         
     	resp.sendRedirect(RedirectService.getRedirectURL(countryid, phonenumber));        	
         
     }	
     
-
 }
