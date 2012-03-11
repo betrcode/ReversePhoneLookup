@@ -4,7 +4,7 @@
 <html>
   <body>
 
-	<h1>Global Person Finder</h1>
+	<h1>Global Directory Search</h1>
 	<div>Using national directory services worldwide! For your convenience.</div>
 	
     <form action="/lookup" method="post">
@@ -28,7 +28,7 @@
 		<% 
 		for (Country c : Country.values()) {
 			%>
-			<li><%= c.getName() %></li>
+			<li><%= c.getName() %>, <a href="<%= c.getBaseUrl() %>"><%= c.getBaseUrl() %></a></li>
 			<%			
 		}
 		%>
