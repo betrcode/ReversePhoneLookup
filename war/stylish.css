@@ -1,0 +1,36 @@
+* {margin:0;padding:0}
+body {font:11pt Georgia, Times New Roman, serif; background-color:#ffffff;line-height:1.3em; color:#444444}
+
+a img {border:none}
+a:link {color: #0066ff;text-decoration:underline}
+a:hover {color:#7A0A17;text-decoration:underline}
+a:visited {color: #804249;text-decoration:underline}
+
+p {margin:10px 0 5px 0}
+span.strike {text-decoration: line-through}
+
+/* IE8 hack to get it to apply margin auto centering to element inside this one */
+#wrap {width:100%}
+
+/* Header */
+#header {padding:15px 0 15px 0;height:75px;border-bottom: 1px solid #97A2BA}
+#header #logo {width:800px;margin:0 auto;padding:0 10px 0 10px}
+#header img.logo {margin-top:26px}
+#header #logo #lang {width:100px;float:right;height:55px;margin-right:60px}
+
+/* Content Area */
+#main {width:800px;margin:0 auto;clear:both;padding-right:10px;padding-left:10px}
+
+
+/* Footer */
+#footer {background: #444444;color:#ffffff;font-size:11px;font-family:Verdana, Arial, sans-serif}
+#footer a {color:#ffffff;text-decoration:underline}
+#footer a:hover {color:#804249;text-decoration:underline}
+#footer a:visited  {color:#ffffff;text-decoration:underline}
+#footer p {margin:0 0 15px 0}
+#footer p.axe img {margin-bottom:-7px}
+
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden}
+.clearfix {display: inline-block}
+* html .clearfix {height: 1%}
+.clearfix {display: block}
