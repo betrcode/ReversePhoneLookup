@@ -13,6 +13,6 @@ The following countries are currently supported
 * Sweden
 * Norway
 * Denmark
-
+* Germany
 
 
