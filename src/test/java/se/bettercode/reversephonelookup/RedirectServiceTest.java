@@ -11,5 +11,7 @@ public class RedirectServiceTest {
 		Assert.assertNotNull(RedirectService.getRedirectURL("45", "Svensson"));
 		Assert.assertNotNull(RedirectService.getRedirectURL("46", "Svensson"));
 		Assert.assertNotNull(RedirectService.getRedirectURL("47", "Svensson"));		
+		Assert.assertNotNull(RedirectService.getRedirectURL("49", "Svensson"));		
+		Assert.assertNotNull(RedirectService.getRedirectURL("-1", "Svensson"));		
 	}
 }
