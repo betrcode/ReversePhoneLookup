@@ -3,7 +3,6 @@ ReversePhoneLookup
 
 Redirects to national directory searches.
 
-Will be deployed to Google App Engine.
 
 Supported Countries
 -------------------
@@ -16,3 +15,6 @@ The following countries are currently supported
 * Germany
 
 
+Deployment
+----------
+This app is deployed to Google App Engine at http://reverse-phone-lookup.appspot.com/
